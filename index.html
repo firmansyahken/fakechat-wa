@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whatsapp Fake</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+        <div class="menu">
+            <div class="menu_content">
+                <div class="item">
+                    <p id="make">Buat Pesan</p>
+                </div>
+                <div class="item">
+                    <p id="reset">Reset Pesan</p>
+                </div>
+            </div>
+        </div>
+        <div class="topbar">
+            <div class="topbar_content">
+                <div class="topbar_profile">
+                    <img src="asset/left.svg">
+                    <img src="https://i.pinimg.com/originals/10/91/94/1091948c6b80b65b9eef8c163f0ae42a.jpg">
+                    <div>
+                        <p>Ayangku</p>
+                        <p>Online</p>
+                    </div>
+                </div>
+                <div class="topbar_action">
+                    <img src="asset/vc.svg">
+                    <img src="asset/call.svg">
+                    <img src="asset/menu.svg" id="menu">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+           
+        </div>
+        <div class="input_group">
+            <div class="input">
+                <img src="asset/emote.svg">
+                <input placeholder="Kirim Pesan">
+                <div class="input_action"> 
+                    <img src="asset/clip.svg">
+                    <img src="asset/cam.svg">
+                </div>
+            </div>
+            <div class="button"><img src="asset/mic.svg"></div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal_content">
+            <form id="submit">
+                <div class="input">
+                    <p>Role</p>
+                    <select id="role">
+                        <option value="dia">dia</option>
+                        <option value="aku">aku</option>
+                    </select>
+                </div>
+                <div class="input">
+                    <p>Waktu</p>
+                    <input type="time" id="time">
+                </div>
+                <div class="input">
+                    <p>Pesan</p>
+                    <input type="text" placeholder="Masukkan Pesan" autocomplete="off" id="message">
+                </div>
+                <button type="submit">Save</button>
+                <button type="reset" id="cancel">Cancel</button>
+            </form>
+        </div>
+    </div>
+
+    
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
